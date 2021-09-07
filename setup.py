@@ -27,8 +27,8 @@ VERSION = "0.1.5"
 HERE = Path(__file__).parent
 
 REQUIRED = [
-    'hydra_core<1.0',
-    'hydra_colorlog<1.0',
+    'hydra_core>=1.0',
+    'hydra_colorlog>=1.0',
     'numpy>=1.19',
     'pystoi>=0.3.3',
     'six',
